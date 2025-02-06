@@ -1,0 +1,17 @@
+[
+    {
+        "opcao": "Home",
+        "rota":"/"
+    },
+    {
+        "opcao": "Investimentos",
+        "rota":"/investimentos"
+    },
+    {
+        "opcao": "Compra/Venda",
+        "rota":"/compraVenda"
+    },    {
+        "opcao": "Proventos",
+        "rota":"/proventos"
+    }
+]

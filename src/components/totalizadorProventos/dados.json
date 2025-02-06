@@ -1,0 +1,42 @@
+[
+    {
+        "papel": "VALE3",
+        "valor": 400
+    },
+    {
+        "papel": "PETR3",
+        "valor": 30
+    },
+    {
+        "papel": "ITUB4",
+        "valor": 45
+    },
+    {
+        "papel": "ABEV3",
+        "valor": 18
+    },
+    {
+        "papel": "MGLU3",
+        "valor": 15
+    },
+    {
+        "papel": "B3SA3",
+        "valor": 12
+    },
+    {
+        "papel": "LREN3",
+        "valor": 27
+    },
+    {
+        "papel": "WEGE3",
+        "valor": 32
+    },
+    {
+        "papel": "CIEL3",
+        "valor": 6
+    },
+    {
+        "papel": "JBSS3",
+        "valor": 22
+    }
+]

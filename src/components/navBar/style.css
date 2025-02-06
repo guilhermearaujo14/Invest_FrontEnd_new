@@ -1,0 +1,36 @@
+.container-navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #2e2e2eaa;
+    height: 70px;
+    padding-top: 5px;
+    box-shadow: 2px 3px #888;
+}
+.nav-item:hover{
+    border-bottom: 1px solid #ddd;
+    text-shadow: 2px 1px #666;
+    transition: 0.7s;
+}
+
+.link-item-menu{
+    color: #fff;
+    font-weight: 600;
+}
+.link-item-menu:hover{
+    color: #000;
+    font-weight: 600;
+}
+.select-menu{
+    display: none;
+}
+@media (max-width: 579px) {
+    .nav{
+        display: none;
+    }
+    .select-menu{
+        margin-top: 15px;
+        display: block;
+        background-color: #666;
+        color: #fff;
+    }
+}

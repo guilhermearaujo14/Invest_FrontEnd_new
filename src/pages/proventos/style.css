@@ -1,0 +1,13 @@
+.form-proventos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.labelInput{
+    color: #fff;
+    font-weight: 700;
+}
+.filtros{
+    background-color: #504f4f;
+    color: #fff;
+}

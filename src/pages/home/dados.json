@@ -1,0 +1,27 @@
+[
+        {
+            "descricao": "total",
+            "total": 6009.45,
+            "porcentagem": 100
+        },
+        {
+            "descricao": "Ações",
+            "total": 3000.25,
+            "porcentagem": 35
+        },
+        {
+            "descricao": "Fundos imobiliários",
+            "total": 2500.83,
+            "porcentagem": 30
+        },
+        {
+            "descricao": "BDR",
+            "total": 600,
+            "porcentagem": 10
+        },
+        {
+            "descricao": "ETF",
+            "total": 1500,
+            "porcentagem": 25
+        }
+]

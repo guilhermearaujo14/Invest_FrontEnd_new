@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(#504f4f,#777);
+    min-height: 100vh;
+}
+.cabecalho{
+    margin-top: 10px;
+}
+.container-titulo{
+    font-size: 1.3em;
+    color: #fff;
+}
+.container-botoes{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+    justify-content: end;
+}
+.btn-acoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}

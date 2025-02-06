@@ -1,0 +1,92 @@
+[
+    {
+        "tipo":"Ação",
+        "papel": "CMIG4",
+        "precoMedio": 10.56,
+        "quantidade": 89,
+        "totalInvestido": 1345,
+        "totalAtual": 1500,
+        "totalPerdaLucro": 155
+    },
+    {
+        "tipo":"Fundo imobiliário",
+        "papel": "CMIG4",
+        "precoMedio": 10.56,
+        "quantidade": 89,
+        "totalInvestido": 1345,
+        "totalAtual": 1500,
+        "totalPerdaLucro": 155
+    },
+    {
+        "tipo":"BDR",
+        "papel": "CMIG4",
+        "precoMedio": 10.56,
+        "quantidade": 89,
+        "totalInvestido": 1345,
+        "totalAtual": 1500,
+        "totalPerdaLucro": 155
+    },
+    {
+        "tipo":"ETF",
+        "papel": "CMIG4",
+        "precoMedio": 10.56,
+        "quantidade": 89,
+        "totalInvestido": 1345,
+        "totalAtual": 1500,
+        "totalPerdaLucro": 155
+    },
+    {
+        "tipo":"FII - Agro",
+        "papel": "CMIG4",
+        "precoMedio": 10.56,
+        "quantidade": 89,
+        "totalInvestido": 1345,
+        "totalAtual": 1500,
+        "totalPerdaLucro": 155
+    },
+    {
+        "tipo":"Ação",
+        "papel": "CMIG4",
+        "precoMedio": 10.56,
+        "quantidade": 89,
+        "totalInvestido": 1345,
+        "totalAtual": 1500,
+        "totalPerdaLucro": 155
+    },
+    {
+        "tipo":"Fundo imobiliário",
+        "papel": "CMIG4",
+        "precoMedio": 10.56,
+        "quantidade": 89,
+        "totalInvestido": 1345,
+        "totalAtual": 1500,
+        "totalPerdaLucro": 155
+    },
+    {
+        "tipo":"BDR",
+        "papel": "CMIG4",
+        "precoMedio": 10.56,
+        "quantidade": 89,
+        "totalInvestido": 1345,
+        "totalAtual": 1500,
+        "totalPerdaLucro": 155
+    },
+    {
+        "tipo":"ETF",
+        "papel": "CMIG4",
+        "precoMedio": 10.56,
+        "quantidade": 89,
+        "totalInvestido": 1345,
+        "totalAtual": 1500,
+        "totalPerdaLucro": 155
+    },
+    {
+        "tipo":"FII - Agro",
+        "papel": "CMIG4",
+        "precoMedio": 10.56,
+        "quantidade": 89,
+        "totalInvestido": 1345,
+        "totalAtual": 1500,
+        "totalPerdaLucro": 155
+    }
+]

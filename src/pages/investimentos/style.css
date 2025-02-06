@@ -1,0 +1,30 @@
+
+.card-investimento{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20px;
+
+}
+.card-investimento-item{
+    width: 28%;
+    background: linear-gradient(to right,#ddd, #aaa);
+    border-left-width: 7px;
+}
+.card-acoes{
+    display: flex;
+    justify-content: end;
+    padding: 3px;
+    gap: 5px;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    .card-investimento-item{
+        width: 70%;
+        height: 150px;
+        background: linear-gradient(to right,#ddd, #aaa);
+        border-left-width: 7px;
+        
+    }
+}

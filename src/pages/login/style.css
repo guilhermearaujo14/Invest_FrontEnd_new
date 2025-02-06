@@ -1,0 +1,32 @@
+.container-body-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-login{
+    width: 40%;
+}
+.container-btn-login{
+    display: flex;
+    justify-content: center;
+}
+.btn-login{
+    width: 150px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.msg-error{
+    color: #940505;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+.link-cadastrar{
+    text-align: right;
+    color: #fffddd;
+}
+.link-cadastrar a{
+    text-decoration: none;
+    color: #fffddd;
+}

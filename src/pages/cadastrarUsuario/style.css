@@ -1,0 +1,27 @@
+.container-cadastra-usuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-cadastra-usuario{
+    width: 60%;
+}
+.container-btn-cadastra-usuario{
+    display: flex;
+    justify-content: center;
+}
+.container-btn-cadastra-usuario button{
+    width: 150px;
+    font-weight: 700;
+    font-size: 1.3em;
+}
+.containerErro{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    font-size: 1.3em;
+    color: #d40000;
+    border-radius: 5px;
+    font-weight: 600;
+}
