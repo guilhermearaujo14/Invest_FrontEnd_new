@@ -6,6 +6,7 @@ import { Proventos } from './pages/proventos'
 import { Home } from './pages/home'
 import { CadastraUsuario } from './pages/cadastrarUsuario'
 import { NavBar } from './components/navBar'
+import { Dashboards } from './pages/dashboards'
 import AuthProvider from './contexts/auth';
 
 export function Rotas() {
@@ -25,6 +26,7 @@ export function Rotas() {
                     <Route path='/compraVenda' element={<CompraVenda />} />
                     <Route path='/proventos' element={<Proventos />} />
                     <Route path='/novoUsuario' element={<CadastraUsuario />} />
+                    <Route path='/dashboards' element={<Dashboards />} />
 
                 </Routes>
             </AuthProvider>

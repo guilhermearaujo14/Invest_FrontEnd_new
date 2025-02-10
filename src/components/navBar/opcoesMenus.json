@@ -10,8 +10,13 @@
     {
         "opcao": "Compra/Venda",
         "rota":"/compraVenda"
-    },    {
+    },
+    {
         "opcao": "Proventos",
         "rota":"/proventos"
+    },
+    {
+        "opcao": "Dashboards",
+        "rota":"/dashboards"
     }
 ]

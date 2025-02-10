@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import './style.css'
 
 import dados from './dados.json';
+import { GraficoBarraVertical } from "../../components/graficos/barras";
 
 interface totalizador{
     descricao: string;
