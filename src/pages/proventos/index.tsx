@@ -11,6 +11,9 @@ export function Proventos() {
                 <div className="header">
                     <h4>Adicionar provento</h4>
                 </div>
+                <div className="container-actions">
+                    <button type="button" className='btn btn-dark'>Consultar dividendo</button>
+                </div>
                 <div className="formulario-proventos">
                     <form action="POST" className="form-proventos">
                         <div className="mb-2">
@@ -29,6 +32,23 @@ export function Proventos() {
                             <button className="btn btn-success">Adicionar</button>
                         </div>
                     </form>
+                </div>
+                
+                <div className="grafico mt-5">
+                    <div className="accordion" id="accordionTotalizadores">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingOne">
+                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <strong>Totalizadores</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionTotalizadores">
+                                <div className="accordion-body">
+                                    <TotalizadoProventos />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="mt-5">
@@ -65,22 +85,6 @@ export function Proventos() {
                 </div>
 
 
-                <div className="grafico mt-5">
-                    <div className="accordion" id="accordionTotalizadores">
-                        <div className="accordion-item">
-                            <h2 className="accordion-header" id="headingOne">
-                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <strong>Totalizadores</strong>
-                                </button>
-                            </h2>
-                            <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionTotalizadores">
-                                <div className="accordion-body">
-                                    <TotalizadoProventos />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
                 <div className="tabela-proventos mt-3">

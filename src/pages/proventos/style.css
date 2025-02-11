@@ -1,3 +1,7 @@
+.container-actions{
+    display: flex;
+    justify-content: end;
+}
 .form-proventos{
     display: flex;
     flex-direction: row;

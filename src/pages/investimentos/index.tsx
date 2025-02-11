@@ -15,7 +15,17 @@ interface dadosAtivo{
 }
 export function Investimentos(){
     const [dados, setDados] = useState<dadosAtivo[]>([])
+
     useEffect(()=>{
+        lista.sort((a,b)=>{
+            if(a.tipo < b.tipo){
+                return -1
+            }
+            if(a.tipo > b.tipo){
+                return 1
+            }
+            return 0
+        })
         setDados(lista);
     },[dados])
 
@@ -41,11 +51,29 @@ export function Investimentos(){
                                                                                 ${dado.tipo === 'ETF' ? 'border-warning' : '' }
                                                                                 ${dado.tipo === 'FII - Agro' ? 'border-info' : '' }
                                                 }`} key={index}>
-                                    <div className="card-header">
+                                    <div className="card-header d-flex justify-content-between">
+                                        <span className='fw-bold'>{dado.papel}</span>
                                         <span>{dado.tipo}</span>
                                     </div>
                                     <div className="card-body text-primary">
-                                        <span>{dado.papel}</span>
+                                        <div>
+                                            <span>Quantidade: {dado.quantidade}</span>
+                                        </div>
+                                        <div>
+                                            <span>Preço médio: R$ {dado.precoMedio}</span>
+                                        </div>
+                                        <div>
+                                            <span>Total investido: R$ {dado.totalInvestido}</span>
+                                        </div>
+                                        <div>
+                                            <span>Total atual R$ {dado.totalAtual}</span>
+                                        </div>
+                                        <div>
+                                            <span>Perda/Lucro R$ {dado.totalPerdaLucro}</span>
+                                        </div>
+                                    </div>
+                                    <div>
+
                                     </div>
                                     <div className="card-acoes">
                                         <div className="btn-acoes" title='Listar compras e vendas do ativo'>
